@@ -1,0 +1,21 @@
+html,
+body {
+  min-height: 500px; 
+  @extend .height_100pct;
+  @extend .margin-auto;
+  @extend .overflow-hidden;
+
+-moz-user-select:none;/*火狐*/
+-webkit-user-select:none;/*webkit浏览器*/
+-ms-user-select:none;/*IE10*/
+-khtml-user-select:none;/*早期浏览器*/
+user-select:none;
+}
+
+body {
+  @extend .clearfix;
+  // font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Microsoft Yahei Light","Open Sans", STXihei,  STSong,YouYuan, "Microsoft Yahei", arial, sans-serif;
+  @extend .font-size_18px;
+  @extend .color-333;
+}

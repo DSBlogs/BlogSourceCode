@@ -1,0 +1,42 @@
+# 侧边导航
+aside_menu:
+  home:
+    link: /index.html
+    icon: home
+  archives:
+    link: /archives/index.html
+    icon: all
+  tags:
+    link: /tags/index.html
+    icon: tag
+  about:
+    link: /about/index.html
+    icon: me
+  rss:
+    link: /atom.xml
+    icon: rss
+
+# 侧边展示，信息标签只能自己修改了，位置 layout/_partial/_aside.ejs
+aside_show:
+  avatar: /img/avatar.jpg
+  name: Dinson
+  caption: Android喵
+  description: 面朝电脑--栀子花开
+
+# 页脚请自己在主题的 layout/_partial/_footer.ejs 里修改
+# 文章的代码块样式请在 source/css/_partial/_post/_highlight.scss 中修改
+
+# 友情链接
+links:
+  baidu:
+    avatar: /img/qq.png
+    link: http://www.baidu.com
+    description: 能够一边直播一边踩能够一边直播一边踩
+
+# 畅言
+comments: false
+changyan_appid: cysXoaLrO
+changyan_appkey: d728bfac2289e4139bef3956efe4401f
+
+# 搜索
+search: true 

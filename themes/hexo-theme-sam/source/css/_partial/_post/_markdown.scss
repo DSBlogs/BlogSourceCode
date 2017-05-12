@@ -1,0 +1,149 @@
+/* ========= markdown 语法 ========= */
+p {
+  line-height: 1.6;
+}
+a {
+  color: $link-color;
+  @extend .text-decoration-none;
+}
+a:hover {
+  color: $link-color-hover;
+  @extend .text-decoration-underline;
+}
+img {
+  @extend .display-block;
+  max-width: 90%;
+  margin: 1em auto;
+  box-shadow: 1px 1px 1px #ccc;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .font-weight-normal;
+}
+h4 {
+  @extend .font-size_20px;
+}
+h5 {
+  @extend .font-size_18px;
+}
+h6 {
+  @extend .font-size_16px;
+}
+code {
+  @extend .display-inlineBlock;
+  padding: 0 .3em;
+  margin: 0 .3em;
+  @extend .text-indent-none;
+  line-height: 1.4;
+  color: $code-color;
+  background-color: $code-background-color;
+  @extend .border-radius_3px;
+  word-break:break-all;
+  
+-moz-user-select:all;/*火狐*/
+-webkit-user-select:all;/*webkit浏览器*/
+-ms-user-select:all;/*IE10*/
+-khtml-user-select:all;/*早期浏览器*/
+user-select:all;
+  
+}
+ul,
+ol {
+  padding-left: 1em;
+}
+li {
+  line-height: 1.5;
+  margin: 0 0 0 1em;
+}
+li p {
+  @extend .text-indent-none;
+}
+& > .highlight {
+  margin-left: 0 !important;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  color: #666; 
+  background-color: none ;
+  border-left: .25em solid #ddd;
+  word-break:break-all;
+  
+-moz-user-select:text;/*火狐*/
+-webkit-user-select:text;/*webkit浏览器*/
+-ms-user-select:text;/*IE10*/
+-khtml-user-select:text;/*早期浏览器*/
+user-select:text;
+  
+}
+blockquote > p {
+  padding: 0 1em;
+  margin: 0 0 1em 0;
+  @extend .margin_0;
+}
+
+table,table::before{
+background-color: #1b1b1b !important;}
+table {
+  max-width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+thead {
+  @extend .color-fff;
+  @extend .background-color-19f;
+}
+ 
+th,td {
+  font-size: 1em;
+  padding: .5em 1em;   
+  background-color: #2d2d2d;
+  color: #fff;
+  vertical-align: top;
+  
+-moz-user-select:text;/*火狐*/
+-webkit-user-select:text;/*webkit浏览器*/
+-ms-user-select:text;/*IE10*/
+-khtml-user-select:text;/*早期浏览器*/
+user-select:text;
+  
+}
+
+td.gutter{
+background-color: #1b1b1b ;}
+
+tbody {
+  background-color: #f8f5ec;
+}
+
+.video,
+video {
+  @extend .z-index_1;
+  @extend .display-block;
+  max-width: 100%;
+  @extend .margin-auto;
+}
+.youku {
+  width: 500px;
+  height: 500px;
+}
+.headerlink::before {
+  content: "\e71a";
+  vertical-align: -.05em;
+  margin-right: .2em;
+  font-family: "iconfont";
+}
+.highlight {
+  @extend .display-block;
+  margin: 1em 0 1em -1em;
+  overflow: auto;
+
+  @import "./_highlight";
+}
+.highlight table {
+  margin: 0;
+}
