@@ -79,7 +79,7 @@ fontface_url: //at.alicdn.com/t/font_yq64zgq5izggmn29.css
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: ssh://git@github.com/DinsonCat/DinsonCat.github.io.git
+  repo: DinsonCat:DinsonCat/DinsonCat.github.io.git
   branch: master 
 
  
