@@ -9,6 +9,9 @@ aside_menu:
   tags:
     link: /tags/index.html
     icon: tag
+  pokemon:
+    link: http://dinson.win/Pokemon/
+    icon: pikaqiu
   about:
     link: /about/index.html
     icon: me
@@ -20,7 +23,7 @@ aside_menu:
 aside_show:
   avatar: /img/avatar.jpg
   name: Dinson
-  caption: Android喵hhh
+  caption: Android喵
   description: 面朝电脑--栀子花开
 
 # 页脚请自己在主题的 layout/_partial/_footer.ejs 里修改

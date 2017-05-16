@@ -1,11 +1,12 @@
 # 侧边栏菜单
 aside_menu:
-  home: 首页
+  home: 酸奶布丁
   archives: 时间印记
   tags: 分类标记
   links: 友情链接
   about: 关于
   rss: RSS
+  pokemon: 口袋妖怪
 
 # 分页
 paginator:

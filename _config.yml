@@ -73,7 +73,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/ hexo-theme-sam next
 theme: hexo-theme-sam
 favicon: /favicon.ico
-fontface_url: //at.alicdn.com/t/font_yq64zgq5izggmn29.css
+fontface_url: //at.alicdn.com/t/font_r3h5eapt6clq5mi.css
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
