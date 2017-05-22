@@ -1,5 +1,6 @@
 /* ========= 分类标签 ========= */
 .category-list {
+  display: inline-table;
   height: 5em;
   @extend .padding_0;
   @extend .margin_0;
