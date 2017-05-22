@@ -1,0 +1,2 @@
+@echo on
+hexo clean
