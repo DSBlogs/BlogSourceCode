@@ -5,7 +5,7 @@
     <div class="post-excerpt"><%- post.excerpt %></div>
     <a href="<%- url_for(post.path) %>" class="post-more">MORE »</a>
     <p class="post-meta">
-	  <span class="post-time"><%- date(post.date, 'YYYY-MM-DD') %></span>
+	  <span class="post-time"><%- date(post.date, 'YYYY-MM') %></span>
       <% post.categories.data.forEach( function ( categorie ) { %>
       <a href="<%- url_for( categorie.path ) %>" class="post-categories"><%= categorie.name %></a>
       <% } ) %>

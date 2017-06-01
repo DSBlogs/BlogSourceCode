@@ -59,7 +59,7 @@
       for ( j = 0; j < temp.length; j++ ) {
     %>
     <p class="archive-post">
-      <span class="archive-time"><%= date( temp[ j ].date, "MM-DD" ) %></span>
+      <% // <span class="archive-time"><%= date( temp[ j ].date, "MM-DD" ) %></span>
       <a class="archive-link" href="<%= temp[ j ].path %>" ><%= temp[ j ].title %></a>
     </p>
     <% } %>

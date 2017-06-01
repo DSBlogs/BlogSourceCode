@@ -9,15 +9,19 @@ aside_menu:
   tags:
     link: /tags/index.html
     icon: tag
+  python:
+    link: http://dinson.win/pythonbasis/03day/section.1.html
+    icon: python
+  pokemon:
+    link: http://dinson.win/Pokemon/
+    icon: jinglingqiu
   about:
     link: /about/index.html
     icon: me
   rss:
     link: /atom.xml
     icon: rss
-  pokemon:
-    link: http://dinson.win/Pokemon/
-    icon: pikaqiu
+  
 
 # 侧边展示，信息标签只能自己修改了，位置 layout/_partial/_aside.ejs
 aside_show:

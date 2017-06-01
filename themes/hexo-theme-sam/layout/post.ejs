@@ -26,7 +26,7 @@
     <% } else { %>
     <h1 class="post-title"><%= page.title %></h1>
     <p class="post-meta">
-      <span class="post-time"><%- date(page.date, 'YYYY-MM-DD') %></span>
+      <% // <span class="post-time"><%- date(page.date, 'YYYY-MM-DD') %></span>
       <% page.categories.data.forEach( function ( categorie ) { %>
       <a href="<%- url_for( categorie.path ) %>" class="post-categories"><%= categorie.name %></a>
       <% } ) %>
