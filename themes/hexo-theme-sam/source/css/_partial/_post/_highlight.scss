@@ -19,6 +19,8 @@ pre {
 .line {
   font-size: 1em;
   line-height: 1.5;
+  font-family: lucida grande; 
+	  text-shadow: 0 1px #444;
 }
 .line::after {
   content: "";
@@ -27,6 +29,7 @@ pre {
 .gutter {
   width: 1.5em;
   text-align: center;
+  display: none;
   color: $highlight-number-color;
   border-right: 2px solid $highlight-number-border-color;
 }
